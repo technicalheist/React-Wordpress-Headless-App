@@ -15,7 +15,12 @@ export default class Header extends Component<any,any> {
   {/* <p style={{marginTop: '-23px'}} className="text-center">Logo Slogan</p> */}
   </div>
 <div className="col-md-4">
-<div id="medium-searchform" className="header-searchform-wrap clr"> <input className="custom_input" placeholder="Search..." type="search" name="s" defaultValue=""/>  <button className="search-submit"><i className="fa fa-search"></i></button><div className="search-bg"></div></div>
+<div id="medium-searchform" className="header-searchform-wrap clr"> 
+<p>
+  <Link to="/about">About</Link> &nbsp;&nbsp;&nbsp;&nbsp;
+  <Link to="/contact">Contact Us</Link>
+</p>
+<div className="search-bg"></div></div>
 </div>
 </div>
  </div>

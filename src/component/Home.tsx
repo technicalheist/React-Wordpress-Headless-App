@@ -50,28 +50,14 @@ class Home extends Component<any,any>{
                     <article  className="post-details-holder wow fadeInUp">
                     <div className="post-image"> <img src={post._embedded['wp:featuredmedia'][0].source_url} alt="...."/> </div>
                     <div className="post-title">
-                <h2><Link to={post.slug}>{post.title.rendered}</Link></h2>
+                <h2><Link to={'post/'+post.slug}>{post.title.rendered}</Link></h2>
                     </div>
                     <div className="post-the-content clearfix layout-one-first-letter">
                {ReactHtmlParser(post.excerpt.rendered)}
                     </div>
                     <div className="post-permalink"> 
-                    <button className="btn btn-default text-center"><Link to={post.slug}>Continue Reading</Link></button> </div>
-                    {/* <div className="post-meta-and-share">
-                       <div className="row">
-                          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                             <div className="post-author"> <span className="post-author"><Link to="#">Sparkle Themes</Link></span> </div>
-                          </div>
-                          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                             <div className="post-share">
-                                <div className="share"></div>
-                             </div>
-                          </div>
-                          <div className="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                             <div className="post-comment-count"> <span className="post-comment-count"><Link to="#">0 Comment</Link></span> </div>
-                          </div>
-                       </div>
-                    </div> */}
+                    <button className="btn btn-default text-center"><Link to={'post/'+post.slug}>Continue Reading</Link></button> </div>
+              
                      <br/>
                  </article>
                    </div>

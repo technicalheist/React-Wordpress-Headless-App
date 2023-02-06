@@ -20,9 +20,9 @@ export default class Approute extends Component {
         return (
                 <React.Fragment>
                     <Route exact path='/' component={Home} />
-                    <Route path='/:slug' component={Content} />
                     <Route path='/contact' component={Contact} />
                     <Route path='/about' component={About} />
+                    <Route path='/post/:slug' component={Content} />
                 </React.Fragment>
         )
     }

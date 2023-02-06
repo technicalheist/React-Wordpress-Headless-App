@@ -42,6 +42,8 @@ header("Access-Control-Allow-Headers: *");
 header("access-control-allow-origin: *");
 ```
 
+To change api url open '.env' file and change the api url. 
+
 ## Conclusion
 
 The React Wordpress Headless App is a great starting point for building fast and modern apps using React and the Wordpress API. The code is well organized and easy to understand, making it easy to customize and extend as per your requirements. Give it a try and start building your own amazing apps today!
