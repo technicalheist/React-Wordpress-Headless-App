@@ -1,0 +1,37 @@
+.nav_custom{padding:30px 0;}
+.social-menu-inner ul {
+  padding: 0;
+  margin: 0;
+}
+
+.social-menu-inner ul li {
+  list-style: none;
+  float: left;
+  margin-right: 30px;
+}
+.social-menu-inner ul li a {
+  color: #929292;
+}
+.header-searchform-wrap {
+  float: right;
+}
+form.header-searchform {
+  position: relative;
+}
+input.custom_input {
+  width: 200px;
+  height: 40px;
+  padding: 0 30px 0 15px;
+  background: #f5f5f5;
+  border: 0;
+  color: #525252;
+}
+
+
+button.search-submit {
+  background: transparent;
+  border: 0;
+  position: absolute;
+  right: 0;
+  top: 7px;
+}
