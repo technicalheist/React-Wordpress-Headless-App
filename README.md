@@ -34,7 +34,16 @@ $ npm start
 
 For demo website please visit our vercel app here : https://headlessapp.vercel.app/
 
+
+## Debug
+if wordpress api is showing cors policy no access-control-allow-origin error, then open your wp-config.php and write the following two lines in the begining of file
+```sh
+header("Access-Control-Allow-Headers: *");
+header("access-control-allow-origin: *");
+```
+
 ## Conclusion
 
 The React Wordpress Headless App is a great starting point for building fast and modern apps using React and the Wordpress API. The code is well organized and easy to understand, making it easy to customize and extend as per your requirements. Give it a try and start building your own amazing apps today!
+
 
